@@ -13,7 +13,7 @@ const UpdateRateMS = process.env.UPDATE_RATEMS || 5000;
 const registry = new Registry();
 const apowerGauge = new Gauge({
     name: apowerGaugeName,
-    help: voltageGaugeName + ' power usage in watts',
+    help: apowerGaugeName + ' power usage in watts',
     registers: [registry]
 });
 const voltageGauge = new Gauge({
