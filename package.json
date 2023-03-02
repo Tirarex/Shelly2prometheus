@@ -1,0 +1,12 @@
+ {
+  "name": "shelly2prometheus",
+  "version": "0.0.1",
+  "description": "Simple Shelly socket to prometheus bridge", 
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "prom-client": "^14.1.1"
+  }
+}
